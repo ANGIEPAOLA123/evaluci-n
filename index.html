@@ -4,10 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="stlye.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <title>Document</title>
 </head>
 
 <body>
@@ -18,7 +19,7 @@
       <nav class="header__nav">
         <ul class="nav__list">
           <li class="nav__item">
-            <a href="#" class="#">HOME</a>
+            <a href="#" class="nav__link">HOME</a>
           </li>
           <li class="nav__item">
             <a href="#" class="nav__link">MENU</a>
@@ -27,92 +28,72 @@
             <a href="#" class="nav__link">ABOUT</a>
           </li>
         </ul>
-      </nav>
-
-      <div class="semicircle"></div>
-
-
-
-      <!-- Login -->
-      <nav class="header__nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a class="nav__link nav__link--secundario" href="">Login</a>
-          </li>
-          <li class="nav__item">
-            <button class="nav__boton">
-              <i class="bi bi-list"></i>
-            </button>
-          </li>
-        </ul>
+        <li class="nav__item">
+          <a class="nav_link nav_link--secundario" href="">Login</a>
+        </li>
+        <li class="nav__item">
+          <button class="nav__boton">
+            <i class="bi bi-list"></i>
+          </button>
+        </li>
+        <li class="nav__item">
+          <a class="nav_link nav_link--secundario" href="">Sign up</a>
+        </li>
+        <li class="nav__item">
+          <button class="nav__boton">
+            <i class="bi bi-list"></i>
+          </button>
+        </li>
       </nav>
     </div>
   </header>
 
-  <!-- sign up-->
-  <nav class="header__nav">
-    <ul class="nav__list">
-      <li class="nav__item">
-        <a class="nav__link nav__link--secundario" href="">Sign up</a>
-      </li>
-      <li class="nav__item">
-        <button class="nav__boton">
-          <i class="bi bi-list"></i>
-        </button>
-      </li>
-    </ul>
-  </nav>
-  </div>
-  </header>
-
-
-
-
   <main>
-    <!-- Baner-negro -->
-    <section id="inicio">
+    <!-- Banner-negro -->
+    <section class="inicio">
       <div class="contenedor">
 
-        <!-- slider -->
+        <!-- Slider -->
         <div class="slider">
-          <class="slider__contender">
-            </class>
-            <div class="slider__iformacion">
+          <div class="slider__contenedor">
+            <div class="slider__informacion">
               <h1 class="slider__titulo">
                 <span class="titulo__flaco"></span>
+                SUSHI CRAVING
               </h1>
-              SUSHI CRAVING
-              <h2>
-
-              </h2>
+              <h2></h2>
               <p class="slider__parrafo">
-                Craving for some traditional food? How about a sushi?
-                sushi Craving produces authentic and fresh sushi that
-                will certainly entice your tastebuds and satiate your
-                hunger! We always strive to satisfy orde yours now
-
+                Craving for some traditional food? How about some sushi?
+                Sushi Craving produces authentic and fresh sushi that
+                will certainly entice your taste buds and satiate your
+                hunger! We always strive to satisfy. Order yours now.
               </p>
               <div class="slider__botones">
-                <a href="#" class="botonn">Order New</a>
-              </div>
-              <div class="llamado__fecha">
-                <p>FOOD TO ENTICE THE TASTEBUDS
-                  GET YOURSELFET SOME AUTHENTIC SUSHI
-                </p>
+                <div class="boton-container">
+                  <a href="#" class="boton">Order Now</a>
+                  <p class="slider__texto">
+                    FOOD TO ENTICE THE TASTEBUDS
+                    GET YOURSELF SOME AUTHENTIC SUSHI
+                  </p>
+                </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <!-- cards -->
-  <section>
+  <section class="cards">
     <div class="contenedor_card">
       <h1 class="card__title">SUSHI GALORE</h1>
       <p class="card__text">
         Scroll through our menu and pick the sushi for you! we offer every kind of sushi, and even have our very own
-        unique inventios!
+        unique inventions!
       </p>
       <p class="card__text1">
-        Don´t hesitate, try thmen today
+        Don´t hesitate, try them today
       </p>
       <button class="accion__flecha">
         <i class="bi bi-arrow-left"></i>
@@ -121,7 +102,6 @@
         <i class="bi bi-arrow-right"></i>
       </button>
 
-      </button>
       <div class="card">
         <figure class="slider__imagen">
           <img src="cmida 4 png.png" alt="plato 1" class="slider__img">
@@ -135,33 +115,23 @@
               <img src="comida 3.png" alt="plato 3" class="slider__img">
             </figure>
             <div class="semicircle"></div>
+          </div>
+          <div class="card">
+            <figure class="slider__imagen">
+              <img src="comida 5.png" alt="plato 3" class="slider__img">
             </figure>
-            <div class="card">
-              <figure class="slider__imagen">
-                <img src="comida 5.png" alt="plato 3" class="slider__img">
-              </figure>
-              <h1 class="card__title_0">SUSHI PLATTER NO.1</h1>
-              <p class="card__text">
-                includes:Nigiri,Gunkan Maki,Narezushi,Temaki,
-                Temari,Oshizushi,and Uramaki
-              </p>
-              <h1 class="card__title_01">$40</h1>
-              </figure>
-              <div class="card">
-                <figure class="slider__imagen">
-                  <img src="comida 5.png" alt="plato 3" class="slider__img">
-                </figure>
-                <h1 class="card__title_0">SUSHI PLATTER NO.1</h1>
-                <p class="card__text">
-                  includes:Nigiri,Gunkan Maki,Narezushi,Temaki,
-                  Temari,Oshizushi,and Uramaki
-                </p>
-                <h1 class="card__title_01">$40</h1>
-                <div class="semicircle"></div>
-              </div>
+            <h1 class="card__title_0">SUSHI PLATTER NO.1</h1>
+            <p class="card__text">
+              includes:Nigiri,Gunkan Maki,Narezushi,Temaki,
+              Temari,Oshizushi,and Uramaki
+            </p>
+            <h1 class="card__title_01">$40</h1>
+          </div>
+        </div>
+      </div>
   </section>
 
-  <!--trabajos-->
+  <!-- trabajos -->
   <div class="trabajo">
     <div class="trabajo__contender">
       <div class="trabajo__iformacion">
@@ -169,141 +139,138 @@
           FOOD TO ENTICE THE TASTEBUDS
           <span class="titulo__flaco"></span>
         </h2>
-        <P>GET YOURSELFET SOME AUTHENTIC SUSHI</P>
+        <p>GET YOURSELF SOME AUTHENTIC SUSHI</p>
         <h1>
           DON´T KNOW WHICH SUSHI TO GET?
         </h1>
         <p class="slider__parrafo">
           First time eating sushi or trying something new? Don't worry, we got your back
 
-          We made a list of which sushi to get as a first timer, or when your simply tired
+          We made a list of which sushi to get as a first-timer, or when you're simply tired
 
-          of ordering the same thing. Experience sushi like never before with these sug-
-          gestions tailored for you!
-
+          of ordering the same thing. Experience sushi like never before with these suggestions tailored for you!
         </p>
         <div class="slider__botones">
           <a href="#" class="botonn">Learn More</a>
         </div>
         <h1>ORDER YOURS </h1>
-        <P>Below are our most ordered sushi platter!
+        <p>Below are our most ordered sushi platters!
           Enjoy different kinds of sushi at the price you
           can afford! Delicious traditional food has
           never been this cheap.
 
           Try it yourself today!
-        </P>
-      </div>
-      <!--negro-->
-      <figure class="slider__imagen">
-        <img src="comida 7.png" alt="plato 1" class="slider__img">
-      </figure>
-      <h2>PLATTER N°.1</h2>
-      <P>INCLUDES:NIGIRI,GUNKAN MAKI,NAREZUSHI,AND TEMAKI</P>
-      <figure class="slider__imagen">
-        <img src="comida 8.png" alt="plato 1" class="slider__img">
-      </figure>
-      <h2>PLATTER N°.2</h2>
-      <P>INCLUDES:NIGIRI,GUNKAN MAKI,NAREZUSHI,AND TEMAKI</P>
-      <figure class="slider__imagen">
-        <img src="comida 9.png" alt="plato 1" class="slider__img">
-      </figure>
-      <h2>PLATTER N°.3</h2>
-      <P>INCLUDES:NIGIRI,GUNKAN MAKI,NAREZUSHI,AND TEMAKI</P>
-      <div class="contenedor_card">
-        <h1 class="card__title">TODAYS PROMO</h1>
-        <p class="card__text">
-          Get your moneys worth with our amazing
-          promos available today! Don't miss out on these
-          amazing deals, call your family and friends over
-          today! Sushi makes bonding time ten times
-          more enjoyable.
         </p>
-        <div class="slider__botones">
-          <a href="#" class="botonn">Learn More</a>
-        </div>
-        <figure class="slider__imagen">
-          <img src="Image 10.png" alt="plato 1" class="slider__img">
-        </figure>
       </div>
-      <figure class="slider__imagen">
-        <img src="User Icon.png" alt="icono" class="slider__img">
-      </figure>
-      <h1>AMELIA WATSON</h1>
-      <P>simply Amazing!
+      <!-- negro -->
+      <div class="contenedor_card">
+        <div class="card">
+          <figure class="slider__imagen">
+            <img src="comida 7.png" alt="plato 1" class="slider__img">
+          </figure>
+          <h2>PLATTER N°.1</h2>
+          <p>INCLUDES:NIGIRI,GUNKAN MAKI,NAREZUSHI,AND TEMAKI</p>
+          <div class="contenedor_card">
+            <div class="card">
+              <figure class="slider__imagen">
+                <img src="comida 8.png" alt="plato 1" class="slider__img">
+              </figure>
+              <h2>PLATTER N°.2</h2>
+              <p>INCLUDES:NIGIRI,GUNKAN MAKI,NAREZUSHI,AND TEMAKI</p>
+              <figure class="slider__imagen">
+                <img src="comida 9.png" alt="plato 1" class="slider__img">
+              </figure>
+              <h2>PLATTER N°.3</h2>
+              <p>INCLUDES:NIGIRI,GUNKAN MAKI,NAREZUSHI,AND TEMAKI</p>
+              <div class="contenedor_card">
+                <h1 class="card__title">TODAY'S PROMO</h1>
+                <p class="card__text">
+                  Get your money's worth with our amazing
+                  promos available today! Don't miss out on these
+                  amazing deals, call your family and friends over
+                  today! Sushi makes bonding time ten times
+                  more enjoyable.
+                </p>
+                <div class="slider__botones">
+                  <a href="#" class="botonn">Learn More</a>
+                </div>
+                <figure class="slider__imagen">
+                  <img src="Image 10.png" alt="plato 1" class="slider__img">
+                </figure>
+              </div>
+              <figure class="slider__imagen">
+                <img src="User Icon.png" alt="icono" class="slider__img">
+              </figure>
+              <h1>AMELIA WATSON</h1>
+              <p>simply Amazing!
 
-        've never had authentic sushi as delicious as Sushi Craving offers, at a very
-        affordable price! Totally got my money's worth. Will come back again!</P>
-      <div>
-        <span><i class="bi bi-star-fill"></i></span>
-        <span><i class="bi bi-star-fill"></i></span>
-        <span><i class="bi bi-star-fill"></i></span>
-        <span><i class="bi bi-star-fill"></i></span>
-        <span><i class="bi bi-star-fill"></i></span>
-      </div>
-      <div class="llamado__fecha">
-        <button class="accion__flecha">
-          <i class="bi bi-arrow-left"></i>
-        </button>
-        <button class="accion__flecha">
-          <i class="bi bi-arrow-right"></i>
-        </button>
-      </div>
-      <h1>GET OUR LATEST NEWSLETTER</h1>
-      <P>Register your account to our Newsletter and get relevant emails containing
-        promos and new menu items!
+                've never had authentic sushi as delicious as Sushi Craving offers, at a very
+                affordable price! Totally got my money's worth. Will come back again!</p>
+              <div>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+              </div>
+              <div class="llamado__fecha">
+                <button class="accion__flecha">
+                  <i class="bi bi-arrow-left"></i>
+                </button>
+                <button class="accion__flecha">
+                  <i class="bi bi-arrow-right"></i>
+                </button>
+              </div>
+              <h1>GET OUR LATEST NEWSLETTER</h1>
+              <p>Register your account to our Newsletter and get relevant emails containing
+                promos and new menu items!
 
-        Also, get assistance for your concerns or inquiries with our 24/7 service support.</P>
-      <div>
-        <form action="">
-          <input type="email">
-          <button>
-            <i class="bi bi-arrow-right"></i>
-          </button>
-        </form>
-      </div>
+                Also, get assistance for your concerns or inquiries with our 24/7 service support.</p>
+              <div>
+                <form action="">
+                  <input type="email">
+                  <button>
+                    <i class="bi bi-arrow-right"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
 
-      <!--fooder-->
-      <h3 class="foder__titulo">
-        FOOD TO ENTICE THE TASTEBUDS
-        <span class="titulo__flaco"></span>
-      </h3>
-      <P>GET YOURSELFET SOME AUTHENTIC SUSHI</P>
-      <footer class="footer">
-        <div class="footer-column">
-          <h1>SUSHI CRAVING</h1>
-          <div class="social-buttons">
-            <a href="#" class="Facebook.png-button"><img src="Icons.png" alt="Facebook"></a>
-          </div>
-        </div>
-    </div>
+            <!-- fooder -->
+            <footer class="footer">
+              <h4 class="footer__titulo">
+                FOOD TO ENTICE THE TASTEBUDS
+                <p class="footer_parrfo">GET YOURSELF SOME AUTHENTIC SUSHI</p>
+              </h4>
+              <div class="footer-column">
+                <h1 class="footer__title">SUSHI CRAVING</h1>
+                <div class="social-buttons">
+                  <a href="#" class="Facebook.png-button"><img src="Icons.png" alt="Facebook"></a>
+                </div>
+              </div>
 
-    <div class="footer-column">
-      <h3>QUICK LINKS</h3>
-      <p>Home</p>
-      <P>Menu</P>
-      <p>About</p>
-      <p>Promos</p>
-      <p>Collaborations</p>
-      <p>Store Locations</p>
-      <p>Delivery</p>
-      <p>E-gifts</p>
-    </div>
+              <div class="footer-column">
+                <h3 class="footer__title">QUICK LINKS</h3>
+                <p class="footer__link">Home</p>
+                <p class="footer__link">Menu</p>
+                <p class="footer__link">About</p>
+                <p class="footer__link">Promos</p>
+                <p class="footer__link">Collaborations</p>
+                <p class="footer__link">Store Locations</p>
+                <p class="footer__link">Delivery</p>
+                <p class="footer__link">E-gifts</p>
+              </div>
 
-    <div class="footer-column">
-      <p>Best of Sushi Craving</p>
-      <p>About Franchising</p>
-      <p>Be an investor</p>
-      <p>Careers</p>
-      <p>Contact Us</p>
-      <p>privacy policy</p>
-    </div>
-    </footer>
-
-
-
-
-    </section>
+              <div class="footer-column">
+                <p class="footer__link">Best of Sushi Craving</p>
+                <p class="footer__link">About Franchising</p>
+                <p class="footer__link">Be an investor</p>
+                <p class="footer__link">Careers</p>
+                <p class="footer__link">Contact Us</p>
+                <p class="footer__link">Privacy Policy</p>
+              </div>
+            </footer>
+            </section>
 </body>
 
 </html>

@@ -1,0 +1,157 @@
+.body {
+  background-image: url('Background.pngg');
+  background-size: cover; /* Ajusta la imagen al tamaño del viewport */
+  background-position: center; /* Centra la imagen */
+  background-attachment: fixed; /* Fija la imagen para que no se desplace con el contenido */
+}
+
+/* Estilos para el menú principal */
+.header__nav {
+  display: flex;
+  align-items: center;
+  direction: none;
+  height: 500px;
+}
+.nav__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.nav__item {
+  margin-right: 10px;
+  direction: none;
+  margin-top: -100px;
+}
+
+/* Estilos para los botones en forma de columna */
+.nav__link--secundario,
+.nav__boton {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Línea debajo de "Home" */
+.nav__link:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000; /* Puedes cambiar el color según tu diseño */
+  transition: width 0.3s;
+}
+/* Estilos para la disposición en línea */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #000000; /* Puedes cambiar el color según tu diseño */
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  text-align: center;
+}
+
+/* Estilos para el contenido adicional del footer */
+.footer-content {
+  text-align: center;
+  flex: 1;
+}
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Estilos para el banner negro */
+.inicio {
+  background-color: #000;
+  color: #fcf6f6;
+  padding: 50px 0;
+}
+.slider__parrafo 
+{
+  color:#f84ab8
+
+}
+/* Estilos para el slider */
+.slider {
+  text-align: center;
+}
+
+.slider__contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider__informacion {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.slider__titulo {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.titulo__flaco {
+  font-weight: normal;
+}
+
+.slider__parrafo {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.slider__botones {
+  margin-top: 20px;
+}
+
+.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f84ab8;
+  color: #fcf6f6;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.llamado__fecha {
+  margin-top: 20px;
+  font-size: 16px;
+  font-style: italic;
+}
+.boton-container {
+    display: flex;
+    align-items: center;
+}
+
+.boton {
+  display: inline-block;
+   display: inline-block;
+  padding: 10px 20px;
+  background-color: #f84ab8;
+  color: #fcf6f6;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.slider__texto {
+    margin: 0; /* Elimina el margen predeterminado del párrafo */
+    color: #555;
+     color: #fcf6f6;
+     margin-left: 200px ; /* Ajusta el margen entre el botón y el texto *
+}
